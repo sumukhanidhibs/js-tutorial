@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="pl">
+        <li>java</li>
+    </ul>
+    <input id="hel"type="text"/>
+    <button onclick="addlanguage()">add language</button>
+    <button onclick="del()">delete language</button>
+</body>
+<script>
+
+    function addlanguage(){
+        let valu = document.getElementById('hel').value;
+        let list = document.createElement('li');
+        list.innerHTML = `${valu}`;
+        let ul = document.querySelector('ul')
+        ul.appendChild(list)
+        document.getElementById('hel').value = ""
+    }
+
+    function del(){
+        let ul = document.querySelector('li:last-child')
+        ul.remove()
+    }
+
+</script>
+</html>

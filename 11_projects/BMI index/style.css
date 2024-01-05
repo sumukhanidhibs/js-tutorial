@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%; 
+    height:100vh;
+    padding: 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:center;
+}
+
+#calcontain{
+    width:43%;
+    height:83vh;
+    margin:20px;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calcontain > *{
+    margin:8px;
+}
+
+#bmicontain{
+    width:43%;
+    height:83vh;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

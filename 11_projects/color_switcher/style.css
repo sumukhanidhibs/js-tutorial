@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    padding: 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:center;
+}
+
+.btncont{
+    width: 80%;
+    height:40vh;
+    padding: 15px ;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    border: solid 2px;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 150px;
+    height:150px;
+    background-color: #fff;
+    margin:20px;
+    border: solid 6px #212121;
+}
+
+#FFFD98{
+    background-color: #FFFD98;
+}
+#BDE4A7{
+    background-color: #BDE4A7;
+}
+#B3D2B2{
+    background-color: white;
+}
+#9FBBCC{
+    background-color: blue;
+}
+
